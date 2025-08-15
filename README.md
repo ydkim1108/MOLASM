@@ -4,7 +4,7 @@ This repository contains the Arduino source code (MOLASM.ino) used in the study:
 Published in iScience, Cell Press
 [[DOI will be available]]
 
-System Overview
+# System Overview
 
 The MOLASM (Mobile Laser Steering Module) is a MEMS-based wireless optical power transmitter designed to enable far-field battery-less sensor operation.
 This system integrates:
@@ -20,7 +20,7 @@ Bluetooth Low Energy (BLE) for wireless control
 Inductive Wireless Power Supply (HiPDiM) for fully untethered operation
 
 
-Contents
+# Contents
 
 MOLASM.ino – Arduino sketch that controls the MEMS micromirror with PWM signals for 1-axis beam steering.
 
@@ -29,7 +29,7 @@ The code receives BLE commands and adjusts laser direction accordingly.
 Used in real-time optical alignment and beam tracking experiments in the paper.
 
 
-Contact
+# Contact
 
 For any questions regarding hardware integration or experimental replication, please contact:
 
