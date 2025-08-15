@@ -1,39 +1,64 @@
-This repository contains the Arduino source code (MOLASM.ino) used in the study:
+# 📡 MOLASM: MEMS-Based Optical Wireless Power Transmission Module
 
-"Far-Field Wireless Power Transmission Module with MEMS-Based Laser Steering for Optogenetic Applications"
-Published in iScience, Cell Press
-[[DOI will be available]]
+This repository contains the Arduino source code and mobile application used in the study:
 
-# System Overview
+> **"Far-Field Wireless Power Transmission Module with MEMS-Based Laser Steering for Optogenetic Applications"**  
+> Published in *iScience*, Cell Press  
+> [[DOI will be available]]
 
-The MOLASM (Mobile Laser Steering Module) is a MEMS-based wireless optical power transmitter designed to enable far-field battery-less sensor operation.
+---
+
+## 🔧 System Overview
+
+The **MOLASM (Mobile Laser Steering Module)** is a MEMS-based wireless optical power transmitter designed to enable far-field battery-less sensor operation.
+
 This system integrates:
 
-* Electrothermal MEMS Micromirror for 2D laser beam steering
+- Electrothermal MEMS Micromirror for 2D laser beam steering  
+- 650 nm Laser Diode for optical power transmission  
+- PWM-controlled actuation via **ATtiny85**  
+- Bluetooth Low Energy (BLE) for wireless control  
+- Inductive Wireless Power Module (HiPDiM) for full untethered operation  
 
-* 650 nm Laser Diode for optical power transmission
+---
 
-* PWM-controlled actuation via Attiny85
+## 📁 Repository Contents
 
-* Bluetooth Low Energy (BLE) for wireless control
+| File | Description |
+|------|-------------|
+| `MOLASM.ino` | Arduino sketch to control MEMS micromirror (1-axis) via PWM signals |
+| `Multi-MOLASM.aia` | MIT App Inventor source for the BLE-based control app |
+| `Multi-MOLASM.apk` | **Android app (built)** for controlling MOLASM via BLE |
+| `apk_qr.png` | QR code to download and install the APK |
 
-* Inductive Wireless Power Supply (HiPDiM) for fully untethered operation
+---
 
+## 📱 Mobile App (Bluetooth Control)
 
-# Contents
+A custom Android app was developed using MIT App Inventor to wirelessly control MOLASM modules.  
+It features:
 
-MOLASM.ino – Arduino sketch that controls the MEMS micromirror with PWM signals for 1-axis beam steering.
+- BLE scan and connect interface  
+- Directional controls via PWM duty  
+- Multi-device control 
 
-The code receives BLE commands and adjusts laser direction accordingly.
+### ▶️ Download APK
 
-Used in real-time optical alignment and beam tracking experiments in the paper.
+Scan the QR code below to install the app directly on your Android device:
 
+![Download APK QR](apk_qr.png)
 
-# Contact
+📥 **[Download Multi-MOLASM.apk](./Multi-MOLASM.apk)**
 
-For any questions regarding hardware integration or experimental replication, please contact:
+---
 
-Prof. Yongdae Kim
-Department of Mechanical & Automotive Engineering, Kyungil University
-ydkim@kiu.kr
+## 📬 Contact
+
+For questions and collaborations:
+
+**Prof. Yongdae Kim**  
+Dept. of Mechanical & Automotive Engineering  
+Kyungil University  
+📧 ydkim@kiu.kr
+
 
