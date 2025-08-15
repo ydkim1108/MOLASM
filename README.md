@@ -29,7 +29,6 @@ This system integrates:
 | `MOLASM.ino` | Arduino sketch to control MEMS micromirror (1-axis) via PWM signals |
 | `Multi-MOLASM.aia` | MIT App Inventor source for the BLE-based control app |
 | `Multi-MOLASM.apk` | **Android app (built)** for controlling MOLASM via BLE |
-| `apk_qr.png` | QR code to download and install the APK |
 
 ---
 
@@ -45,8 +44,6 @@ It features:
 ### ▶Download APK
 
 Scan the QR code below to install the app directly on your Android device:
-
-![Download APK QR](apk_qr.png)
 
 **[Download Multi-MOLASM.apk](./Multi-MOLASM.apk)**
 
