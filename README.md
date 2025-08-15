@@ -1,14 +1,14 @@
-# 📡 MOLASM: MEMS-Based Optical Wireless Power Transmission Module
+# MOLASM: MEMS-Based Optical Wireless Power Transmission Module
 
 This repository contains the Arduino source code and mobile application used in the study:
 
-> **"Far-Field Wireless Power Transmission Module with MEMS-Based Laser Steering for Optogenetic Applications"**  
+> "Far-Field Wireless Power Transmission Module with MEMS-Based Laser Steering for Optogenetic Applications"
 > Published in *iScience*, Cell Press  
 > [[DOI will be available]]
 
 ---
 
-## 🔧 System Overview
+## System Overview
 
 The **MOLASM (Mobile Laser Steering Module)** is a MEMS-based wireless optical power transmitter designed to enable far-field battery-less sensor operation.
 
@@ -22,7 +22,7 @@ This system integrates:
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 
 | File | Description |
 |------|-------------|
@@ -33,7 +33,7 @@ This system integrates:
 
 ---
 
-## 📱 Mobile App (Bluetooth Control)
+## Mobile App (Bluetooth Control)
 
 A custom Android app was developed using MIT App Inventor to wirelessly control MOLASM modules.  
 It features:
@@ -42,17 +42,17 @@ It features:
 - Directional controls via PWM duty  
 - Multi-device control 
 
-### ▶️ Download APK
+### ▶Download APK
 
 Scan the QR code below to install the app directly on your Android device:
 
 ![Download APK QR](apk_qr.png)
 
-📥 **[Download Multi-MOLASM.apk](./Multi-MOLASM.apk)**
+**[Download Multi-MOLASM.apk](./Multi-MOLASM.apk)**
 
 ---
 
-## 📬 Contact
+## Contact
 
 For questions and collaborations:
 
