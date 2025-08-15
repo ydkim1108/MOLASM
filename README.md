@@ -9,15 +9,15 @@ Published in iScience, Cell Press
 The MOLASM (Mobile Laser Steering Module) is a MEMS-based wireless optical power transmitter designed to enable far-field battery-less sensor operation.
 This system integrates:
 
-Electrothermal MEMS Micromirror for 2D laser beam steering
+## Electrothermal MEMS Micromirror for 2D laser beam steering
 
-650 nm Laser Diode for optical power transmission
+## 650 nm Laser Diode for optical power transmission
 
-PWM-controlled actuation via Attiny85
+## PWM-controlled actuation via Attiny85
 
-Bluetooth Low Energy (BLE) for wireless control
+## Bluetooth Low Energy (BLE) for wireless control
 
-Inductive Wireless Power Supply (HiPDiM) for fully untethered operation
+## Inductive Wireless Power Supply (HiPDiM) for fully untethered operation
 
 
 # Contents
